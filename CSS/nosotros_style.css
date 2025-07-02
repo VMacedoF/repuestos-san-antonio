@@ -1,0 +1,593 @@
+
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Topbar */
+.topbar {
+  background-color: #003366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  font-size: 14px;
+  flex-wrap: wrap;
+  gap: 200px;
+  text-align: center;
+  color: white;
+}
+
+.contact-info {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  color: white;
+}
+
+.contact-info span {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+}
+
+.contact-info img,
+.social-icons img {
+  height: 16px;
+  margin-right: 5px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding: 10px 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.logo {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner-full img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/* Sección Descripción */
+.intro-repuestos {
+  background-color: #003366;
+  color: white;
+  padding: 40px 20px;
+  width: 100%; /* ancho total */
+}
+
+.intro-contenido {
+  max-width: 1200px;
+  margin: auto;
+  text-align: left;
+}
+
+.intro-repuestos h2 {
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+.intro-repuestos p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Misión, visión y valores */
+.nosotros-dos-columnas {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px 20px;
+  flex-wrap: wrap;
+}
+
+.nosotros-columna {
+  flex: 1;
+  background-color: #f5f5f5;
+  border-radius: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 300px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.nosotros-imagen-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.nosotros-imagen-container img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+.nosotros-imagen-container img:hover {
+  transform: scale(1.1);
+}
+
+.nosotros-texto {
+  padding: 10px;
+  width: 80%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+}
+
+.nosotros-texto p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+/* Nos acomodamos a tus necesidades */
+.seccion-necesidades {
+    background-color: #f5f5f5;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.seccion-necesidades h2 {
+    color: #003366;
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: normal;
+}
+
+.seccion-necesidades h2 strong {
+    font-weight: bold;
+}
+
+.contenedor-cuadros {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 20px;
+}
+
+.cuadro-necesidad {
+    flex: 1;
+    min-width: 300px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px #ccc;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.cuadro-necesidad h3 {
+    color: #003366;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.cuadro-necesidad img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+
+.cuadro-necesidad p {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.boton-necesidad {
+  background-color: #003366;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.boton-necesidad:hover {
+  background-color: #0055aa;
+}
+
+/* Linea */
+.linea-separadora {
+    width: 1200px;
+    max-width: 100%;
+    height: 2px;
+    background-color: #ccc;
+    border: none;
+    margin: 40px auto;
+}
+
+/* MAPA Y CONTACTO */
+.mapa-contacto {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 30px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.mapa, .info-contacto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.mapa iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+}
+
+.info-contacto {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 0;
+  color: #666666;
+}
+
+.info-contacto h3 {
+  margin-bottom: 15px;
+  color: #003366;
+}
+
+.info-contacto p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.reclamos-linea {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.icono-reclamo {
+    height: 50px
+}
+
+/* FOOTER */
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-menu li {
+  font-weight: bold;
+}
+
+.footer-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* KEYFRAMES */
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animaciones para títulos */
+h2 {
+  opacity: 0;
+  animation: fadeInSlide 1s ease forwards;
+}
+
+/* Animaciones para botones */
+@keyframes popUp {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Para los botones comunes */
+.banner-btn,
+.boton-necesidad,
+.cta-bth,
+.promo-bth {
+  animation: popUp 0.6s ease forwards;
+}
+
+/* Keyframe Titulo: Nos acomodamos a tus necesidades */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.cuadro-necesidad {
+  opacity: 0;
+  animation: slideUp 0.8s ease forwards;
+}
+
+/* Keyframe para líneas separadoras */
+@keyframes lineExpand {
+  from {
+    width: 0%;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+.linea-separadora {
+  animation: lineExpand 1s ease forwards;
+}
+
+/* media para móviles hasta 768px */
+@media (max-width: 768px) {
+
+  /* Topbar y header más compactos */
+  .topbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Columnas dobles a una sola */
+  .cotizacion-section,
+  .nv-container,
+  .nv-dos-columnas,
+  .nosotros-dos-columnas,
+  .contenedor-cuadros,
+  .mapa-contacto {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Cuadros se ajustan al 90% */
+  .cuadro-necesidad,
+  .nv-columna,
+  .nosotros-columna {
+    width: 90%;
+  }
+
+  /* Imágenes centradas y a 100% del contenedor */
+  .nv-imagen-container img,
+  .cuadro-necesidad img,
+  .nosotros-imagen-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Botones más pequeños */
+  .banner-btn,
+  .boton-necesidad,
+  .cta-bth,
+  .promo-bth {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  /* Texto más legible en pantallas pequeñas */
+  h2, h3 {
+    font-size: 20px;
+  }
+
+  .nv-texto p,
+  .cuadro-necesidad p,
+  .nosotros-texto p {
+    font-size: 14px;
+  }
+
+  /* Galerías y promociones centradas */
+  .imagenes-promo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imagenes-promo img {
+    width: 90%;
+  }
+
+  .galeria-repuestos {
+    justify-content: center;
+  }
+
+}
+
+/* media para tablets hasta 1024px */
+@media (max-width: 1024px) {
+
+  .categorias-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .testimonios-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nv-container,
+  .nv-dos-columnas,
+  .cotizacion-section {
+    flex-direction: column;
+  }
+
+  .nv-container .img-wrapper,
+  .nv-texto {
+    width: 100%;
+  }
+
+  .cuadro-necesidad,
+  .nv-columna,
+  .nosotros-columna {
+    width: 100%;
+  }
+
+  .galeria-repuestos img {
+    width: 45%;
+  }
+
+}
+
+/* media para menu hamburguesa */
+/* Estilo botón hamburguesa */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-toggle span {
+  height: 3px;
+  width: 25px;
+  background: #003366;
+  display: block;
+  border-radius: 3px;
+}
+
+/* Media Query para activar hamburguesa */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #f5f5f5;
+    padding: 10px 0;
+  }
+
+  nav ul li {
+    padding: 10px;
+    text-align: center;
+  }
+
+  nav ul li:hover {
+    background-color: #e0e0e0;
+  }
+
+  nav.active ul {
+    display: flex;
+  }
+}
