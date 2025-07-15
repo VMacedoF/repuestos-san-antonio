@@ -98,7 +98,7 @@ Este proyecto es una página web informativa y visualmente atractiva para **Repu
    git push origin main
 
 👉 **[Haz clic aquí para visitar el sitio](https://vmacedof.github.io/repuestos-san-antonio/index.html)**
-👉 **[Haz clic aquí para visitar el sitio](https://github.com/VMacedoF/repuestos-san-antonio)**
+
 ---
 
 Creado con ❤️ como parte del PA4 del curso 1857 - Diseño y Desarrolo Web.
