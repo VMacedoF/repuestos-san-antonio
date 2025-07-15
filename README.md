@@ -101,5 +101,5 @@ Este proyecto es una página web informativa y visualmente atractiva para **Repu
 
 ---
 
-Creado con ❤️ como parte del PA4 del curso 1857 - Diseño y Desarrolo Web.
+Creado con ❤️ como parte de la Evaluación Integral del curso 1857 - Diseño y Desarrolo Web.
 
