@@ -3,7 +3,7 @@
 Este proyecto es una página web informativa y visualmente atractiva para **Repuestos San Antonio**, un taller autorizado por Volkswagen que ofrece servicios de mantenimiento, repuestos originales y atención al cliente.
 
 ## 🌐 Sitio web
-[Ver sitio en GitHub Pages](https://tuusuario.github.io/tu-repositorio/) ← *(reemplazar por tu URL real)*
+[Ver sitio en GitHub Pages](https://vmacedof.github.io/repuestos-san-antonio/)
 
 ---
 
@@ -98,7 +98,7 @@ Este proyecto es una página web informativa y visualmente atractiva para **Repu
    git push origin main
 
 👉 **[Haz clic aquí para visitar el sitio](https://vmacedof.github.io/repuestos-san-antonio/index.html)**
-
+👉 **[Haz clic aquí para visitar el sitio](https://github.com/VMacedoF/repuestos-san-antonio)**
 ---
 
 Creado con ❤️ como parte del PA4 del curso 1857 - Diseño y Desarrolo Web.
