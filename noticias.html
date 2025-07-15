@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Repuestos San Antonio - Nosotros</title>
-  <link rel="stylesheet" href="CSS/nosotros_style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Repuestos San Antonio - Noticias</title>
+    <link rel="stylesheet" href="CSS/taller.css" />
 </head>
 <body>
-
+    
     <!-- Topbar - contacto y redes sociales -->
     <div class="topbar">
         <div class="contact-info">
@@ -32,7 +32,7 @@
             <span></span>
             <span></span>
         </div>
-        
+
         <nav id="nav">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
@@ -64,73 +64,20 @@
 
     <!-- Banner -->
     <section class="banner-full">
-        <img src="Imagenes/bannosotros.jpg" alt="Banner Nosotros" />
+        <img src="Imagenes/noticias.jpg" alt="Banner principal" />
     </section>
 
-    <!-- Sección: Nosotros-->
+    <!-- Sección: Repuestos y Accesorios -->
     <section class="intro-repuestos">
         <div class="intro-contenido">
-        <h2>Nosotros</h2>
-        <p >En <strong>Repuestos San Antonio</strong>, nos dedicamos a ofrecer soluciones automotrices confiables, seguras y de calidad. Somos un <strong>Taller Autorizado por Volkswagen</strong>y nuestro compromiso es brindar repeustos y accesorios 100% originales, garantizando el rendimineto óptimo y la durabilidad de cada vehículo. Confía en nosotros. Confía en lo original.</p>
-        </div>
+            <h2>Tips y Noticias - ¡Muy pronto!</h2>
+            <p>Estamos preparando contenido útil y actualizado sobre el cuidado de tu auto, recomendaciones, novedades del sector y mucho más. ¡Espéralo pronto!
+        </div>    
     </section>
 
-    <!-- Misión, visión y valores -->
-    <section class="nosotros-dos-columnas">
-        <div class="nosotros-columna anim-slideUp delay-6">
-            <div class="nosotros-imagen-container">
-                <img src="Imagenes/misionvision.jpg" alt="Misión y Visión">
-            </div>
-            <div class="nosotros-texto anim-slideUp delay-6">
-                <p>
-                    <strong>Misión:</strong> Lograr el más alto nivel de satisfacción personal y profesional de nuestros empleados para lograr el más alto nivel de satisfacción de nuestros clientes y accionistas.
-                </p>
-                <p>
-                    <strong>Visión:</strong> Ser el mejor concesionario a nivel Mundial.
-                </p>
-            </div>
-        </div>
 
-       <div class="nosotros-columna anim-slideUp delay-6">
-            <div class="nosotros-imagen-container">
-                <img src="Imagenes/valores.jpg" alt="Valores">
-            </div>
-            <div class="nosotros-texto anim-slideUp delay-6">
-                <p>
-                    <strong>Confianza:</strong> basada en delegar trabajos y cumplir con responsabilidades de manera eficiente.
-                </p>
-                <p>
-                    <strong>Eficiencia:</strong> cumplir con los objetivos en tiempos óptimos. Puntualidad: respetar horarios de ingreso, plazos de entrega de trabajos o informes.
-                </p>
-                <p>
-                    <strong>Iniciativa propia:</strong> pro activos, de acuerdo a sus funciones establecidas.
-                </p>
-            </div>
-        </div>
-    </section> 
 
-    <!-- Nos acomodamos a tus necesidades -->
-    <section class="seccion-necesidades">
-        <div class="contenedor-titulo">
-            <h2>Nos acomodamos a <strong>tus necesidades</strong></h2>
-        </div>
 
-        <div class="contenedor-cuadros">
-            <div class="cuadro-necesidad anim-slideUp delay-6">
-                <h3>Visítanos en nuestro local</h3>
-                <img src="Imagenes/local.jpg" alt="Visítanos">
-                <p>Si aún no te decides por un modelo Volkswagen, nos puedes visitar en nuestro local de Chorrillos y podrás probar varios modelos.</p>
-                <a href="#" class="boton-necesidad">Ver ubicación</a>
-            </div>
-
-            <div class="cuadro-necesidad anim-slideUp delay-6">
-                <h3>Vamos a tu hogar u oficina</h3>
-                <img src="Imagenes/domicilio.png" alt="Vamos a ti">
-                <p>Uno de nuestros asesores podrá visitarte en la comodidad de tu hogar u oficina, así explicar todas las ventajas de nuestra marca.</p>
-                <a href="#" class="boton-necesidad">Agenda tu visita</a>
-            </div>
-        </div>
-    </section>
 
     <!-- Linea -->
     <hr class="linea-separadora">
@@ -186,6 +133,23 @@
         </ul>
         <p>&copy; 2025 Repuestos San Antonio. Todos los derechos reservados.</p>
     </footer>
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper(".promo-swiper", {
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            effect: "fade",
+            speed: 1000,
+        });
+    </script>
+
 
     <script src="JS/menu.js"></script>
 </body>

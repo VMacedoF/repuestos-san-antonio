@@ -7,3 +7,15 @@ document.addEventListener("DOMContentLoaded", function () {
     toggle.classList.toggle("active");
   });
 });
+
+// Menú desplegable para móviles
+const dropdownToggle = document.querySelector('.dropbtn');
+const dropdownMenu = document.querySelector('.dropdown-content');
+
+if (dropdownToggle && dropdownMenu) {
+  dropdownToggle.addEventListener('click', function (e) {
+    e.preventDefault();
+    dropdownMenu.classList.toggle('show-dropdown');
+  });
+}
+

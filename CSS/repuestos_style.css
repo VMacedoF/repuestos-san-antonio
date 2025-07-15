@@ -159,11 +159,14 @@ nav ul li a:hover {
 }
 
 .imagenes-promo img {
-    width: 500px;
-    height: auto;
-    border-radius: 10px;
-    opacity: 0;
-    animation: fadeZoom 1s ease forwards;
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  transition: filter 0.3s ease;
+}
+
+.imagenes-promo img:hover {
+  filter: brightness(70%);
 }
 
 .promo-bth {
@@ -694,4 +697,105 @@ h2 {
   nav.active ul {
     display: flex;
   }
+}
+
+/* CAMBIOS SEGUN RECOMENDACIONES */
+
+/* Zoom suave al pasar el mouse sobre la imagen del producto */
+.producto-item img {
+  transition: transform 0.3s ease;
+}
+
+.producto-item img:hover {
+  transform: scale(1.05);
+}
+
+/* Elevacion suave al pasar el mouse por toda la tarjeta */
+.nv-columna {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nv-columna:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Animación de entrada para productos */
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animacion para cada columna de producto */
+.nv-columna {
+  animation: slideUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Animacion de entrada con deslizamiento hacia arriba */
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anim-slideUp {
+  animation: slideUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+.delay-6 {
+  animation-delay: 0.6s;
+}
+
+/* Menú desplegable para "Modelos" */
+.dropdown {
+  position: relative;
+}
+
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #f5f5f5;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  z-index: 999;
+  flex-direction: column;
+}
+
+.dropdown .dropdown-content li {
+  padding: 4px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown .dropdown-content li a {
+  color: #003366;
+  text-decoration: none;
+  font-weight: normal;
+  display: block;
+  font-size: 11px;
+  }
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+
+.dropdown .dropdown-content li:hover {
+  background-color: #e0e0e0;
 }
